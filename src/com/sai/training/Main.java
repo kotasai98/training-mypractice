@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a;
-        int b;
-        int c;
+        int a; int b; int c;
         System.out.println("a:");
         a = sc.nextInt();
         System.out.println("b:");
@@ -28,4 +26,13 @@ public class Main {
         if ((c % 2 == 0)) {
             System.out.println("c is even number");
         } else {
-            System.out.println("c is odd number");}}}
+            System.out.println("c is odd number");}
+//which is larger number
+if (a>b && a>c){
+            System.out.println("a is largest");
+        }
+        else if(b>a && b>c){
+            System.out.println("b is largest");
+        }else{
+            System.out.println("c is largest");
+        }}}
