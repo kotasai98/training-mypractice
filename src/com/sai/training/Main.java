@@ -34,8 +34,11 @@ if (a>b && a>c){
         }
         else if(b>a && b>c){
             System.out.println("b is largest");
-        }else{
-            System.out.println("c is largest");
+        }else {
+    System.out.println("c is largest");
 
 //multiplication of numbers
-    System.out.println("product of numbers :" + product);}}}
+    System.out.println("product of numbers :" + product);
+    //example
+    System.out.println("a/b");
+}}}
