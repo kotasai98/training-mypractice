@@ -14,6 +14,7 @@ public class Main {
         int sum = a + b + c;
         int product = a*b*c;
         System.out.println("sum of all numbers is :" + sum);
+        System.out.println("product of all numbers is :" + product);
         //if the numbers are even
         if ((a % 2 == 0)) {
             System.out.println("a is even number");
@@ -37,8 +38,4 @@ if (a>b && a>c){
         }else {
     System.out.println("c is largest");
 
-//multiplication of numbers
-    System.out.println("product of numbers :" + product);
-    //example
-    System.out.println("a/b");
 }}}
